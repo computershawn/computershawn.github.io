@@ -1,0 +1,49 @@
+html, body {
+  background-color: #efefef;
+  color: #444;
+  font-family: 'Source Sans Pro', serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #000;
+  font-weight: normal;
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
+
+#grid-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.grid-row {
+  width: 854px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-row > div {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: #ddd;
+  margin-bottom: 6px;
+  outline: 1px solid #dcdcdc;
+}
+
+.grid-row > div > img,
+.grid-row > div > a > img {
+  width: 80px;
+  height: 80px;
+}
+
+.grid-row > div.concept {
+  background-color: transparent;
+}
+
+.placeholder {
+  opacity: .2
+}
