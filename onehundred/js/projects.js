@@ -12,6 +12,12 @@ projectData = {
       "alt": "Tension 02",
       "itemURL": "https://github.com/computershawn/OneHundred/tree/master/tension/02",
       "num": "two"
+    },
+    {
+      "imageURL": "./images/tension03.png",
+      "alt": "Tension 03",
+      "itemURL": "https://github.com/computershawn/OneHundred/tree/master/tension/03",
+      "num": "two"
     }
   ],
   "topic2": [],
